@@ -9,11 +9,5 @@
 
 local modpath = minetest.get_modpath("macromoney_market")
 
--- Global table
-macromoney_market = {}
-
--- Catalog
-dofile(modpath .. "/catalog.lua")
-
 -- Nodes
 dofile(modpath .. "/nodes.lua")
